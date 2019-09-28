@@ -2,6 +2,12 @@
 
 # dependencies
 /node_modules
+
+gulpfile.js
+.gulpfile.js
+./gulpfile.js
+/gulpfile.js
+
 /.pnp
 .pnp.js
 old
