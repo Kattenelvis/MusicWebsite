@@ -1,0 +1,13 @@
+$colors: #f1f1f2, #ced7f2, #65a3c5, #3e6e8c, #f2b9ac;
+
+@mixin desktop() {
+	@media screen and (min-width: 1300px) {
+		@content;
+	}
+}
+
+@mixin fullHD() {
+	@media screen and (min-width: 1800px) {
+		@content;
+	}
+}

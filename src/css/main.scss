@@ -1,0 +1,125 @@
+@import './values';
+@import './header';
+@import './footer';
+body,
+html {
+	height: calc(100% - 2em);
+	padding: 0;
+	margin: 0;
+	font-family: Arial, Helvetica, sans-serif;
+	background-color: nth($colors, 1);
+	//overflow-x: hidden;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	margin: 0;
+}
+
+#image {
+	background-image: url('../img/EDMScene.jpg');
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 400px;
+	background-size: 300%;
+	background-position-y: -60rem;
+	background-position-x: -60rem;
+	filter: blur(px);
+
+	@include desktop {
+		background-position-y: -80rem;
+		height: 500px;
+	}
+	@include fullHD {
+		background-position-y: -120rem;
+	}
+}
+
+.mainText {
+	color: black;
+	font-weight: bold;
+	text-align: center;
+	font-size: 4em;
+	margin-top: 40px;
+}
+
+.secondaryText {
+	color: nth($colors, 4);
+	font-weight: 300;
+	font-style: italic;
+	text-align: center;
+	margin-top: 30px;
+	font-size: 1.6em;
+}
+
+@keyframes comingInFromTheLeft {
+	0% {
+		transform: translateX(-800px);
+		opacity: 0.02;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+@keyframes comingInFromTheRight {
+	0% {
+		transform: translateX(800px);
+		opacity: 0.02;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+.comingInFromTheLeft {
+	animation: comingInFromTheLeft 0.2s ease-in-out 0s 1 normal forwards running;
+}
+
+.comingInFromTheRight {
+	animation: comingInFromTheRight 0.2s ease-in-out 0s 1 normal forwards running;
+}
+
+.frontPageDiv:nth-of-type(1) {
+	margin: 12em auto !important;
+}
+
+.frontPageDiv {
+	opacity: 0;
+	width: 70%;
+	margin: 17em auto;
+	padding: 2em;
+	&:hover {
+		box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+		//transform: translateX(100px);
+	}
+	/*transition: transform 0.7s cubic-bezier(0.79, -0.84, 0.07, 1.7);
+	*/
+	img {
+		width: 50%;
+		height: auto;
+		float: left;
+	}
+	h3 {
+		display: inline-block;
+		margin-left: 40px;
+		font-size: 2em;
+		width: 40%;
+		margin-top: -6px;
+	}
+	p {
+		display: inline-block;
+		margin-left: 40px;
+		margin-top: 30px;
+		width: 45%;
+	}
+
+	&::after {
+		content: '';
+		clear: both;
+		display: table;
+	}
+}
