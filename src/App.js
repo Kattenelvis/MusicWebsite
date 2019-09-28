@@ -6,6 +6,8 @@ import Home from './components/Home/Home'
 import TopPart from './components/TopPart'
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
 import Blogs from './components/Blog/Blogs'
+import Samples from './components/Samples/Samples'
+import Plugins from './components/Plugins/Plugins'
 
 function App() {
 	return (
@@ -21,6 +23,12 @@ function App() {
 							</Route>
 							<Route exact path='/blog'>
 								<Blogs />
+							</Route>
+							<Route exact path='/plugins'>
+								<Plugins />
+							</Route>
+							<Route exact path='/samples'>
+								<Samples />
 							</Route>
 						</Switch>
 					</main>

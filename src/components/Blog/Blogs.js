@@ -4,7 +4,7 @@ import BlogLink from './BlogLink'
 export default function Blogs() {
 	return (
 		<div>
-			<BlogLink id='example-title-of-blog' />
+			<BlogLink id='example-title-of-blog' classes='frontPageDiv blogLink' />
 		</div>
 	)
 }

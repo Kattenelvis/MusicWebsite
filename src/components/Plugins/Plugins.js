@@ -1,5 +1,5 @@
 import React from 'react'
 
 export default function Plugins() {
-	return <div></div>
+	return <div>This is under construction</div>
 }

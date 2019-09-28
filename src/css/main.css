@@ -64,6 +64,15 @@ footer p {
   padding: 40px;
 }
 
+a {
+  color: black;
+}
+
+.blogLink img {
+  width: 30% !important;
+  margin-top: 30px;
+}
+
 body,
 html {
   height: calc(100% - 2em);
