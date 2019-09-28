@@ -1,6 +1,7 @@
 @import './values';
 @import './header';
 @import './footer';
+@import './blogs';
 body,
 html {
 	height: calc(100% - 2em);
@@ -88,7 +89,7 @@ h6 {
 }
 
 .frontPageDiv {
-	opacity: 0;
+	//opacity: 0;
 	width: 70%;
 	margin: 17em auto;
 	padding: 2em;
