@@ -1,5 +1,5 @@
 import React from 'react'
-import './css/main.css'
+import './css/main.min.css'
 import Footer from './components/Footer'
 import Header from './components/Header'
 import Home from './components/Home/Home'

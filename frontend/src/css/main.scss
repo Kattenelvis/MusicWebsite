@@ -1,7 +1,7 @@
-@import './values';
-@import './header';
-@import './footer';
-@import './blogs';
+@import 'values';
+@import 'header';
+@import 'footer';
+@import 'blogs';
 body,
 html {
 	height: calc(100% - 2em);

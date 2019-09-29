@@ -1,18 +1,24 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import jsonBlogs from './Blogs.json'
 
 export default function Blogs({ id, classes }) {
+	const blog = jsonBlogs.blogs.filter(blog => blog.url === id)[0]
+	/*document.addEventListener('DOMContentLoaded', () => {
+		document.querySelector('#paragraph').innerHTML = blog.text
+	})*/
+
 	return (
-		<Link to={`blog/${id}`}>
+		<Link exact to={`blog/${id}`}>
 			<div className={classes}>
 				<img src={require('../../img/EDMScene.jpg')} alt='' style={{ float: 'left' }} />
-				<h3>Test</h3>
-				<p>
-					Hello Lorem Ipsum Hello Lorem Ipsum Hello Lorem Ipsum Hello Lorem Ipsum Hello
-					Lorem Ipsum Hello Lorem Ipsum Hello Lorem Ipsum Hello Lorem Ipsum Hello Lorem
-					Ipsum Hello Lorem Ipsum Hello Lorem Ipsum Hello Lorem Ipsum Hello Lorem Ipsum
-					Hello Lorem Ipsum Hello Lorem Ipsum Hello Lorem Ipsum Hello Lorem Ipsum
-				</p>
+				<div className='mainContent'>
+					<h3>{blog.title}</h3>
+					<h4>
+						<i>{blog.tags}</i>
+					</h4>
+					<p>{blog.description}</p>
+				</div>
 			</div>
 		</Link>
 	)

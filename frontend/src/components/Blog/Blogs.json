@@ -1,0 +1,43 @@
+{
+	"blogs": [
+		{
+			"url": "example-title-of-blog",
+			"title": "Test Blog",
+			"tags": "tag, tag, tag",
+			"description": "HELLO EVERYBODY",
+			"text": "<p>Howdy Partner</p>",
+			"comments": [
+				{
+					"name": "Katten",
+					"text": "No HTML here"
+				}
+			]
+		},
+		{
+			"url": "example-title-of-blog2",
+			"title": "Test Blog 2",
+			"tags": "tag, tag, tag",
+			"description": "HELLO EVERYBODY",
+			"text": "<p>Howdy Partners</p>",
+			"comments": [
+				{
+					"name": "Katten",
+					"text": "No HTML here"
+				}
+			]
+		},
+		{
+			"url": "new-title-of-blog2",
+			"title": "Test Blog 2",
+			"tags": "tag, tag, tag",
+			"description": "HELLO EVERYBODY",
+			"text": "<p>Howdy Partners</p>",
+			"comments": [
+				{
+					"name": "Katten",
+					"text": "No HTML here"
+				}
+			]
+		}
+	]
+}
