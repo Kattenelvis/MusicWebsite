@@ -44,21 +44,21 @@ a {
 }
 
 .BlogPost {
-	border: solid 1px red;
 	text-align: center;
-	width: 60%;
+	width: 80%;
 	max-width: 1100px;
 	min-width: 500px;
 	margin: auto;
 	line-height: 2.1rem;
 	margin-top: 45px;
 	h1 {
-		font-size: 4rem;
+		font-size: 3.5rem;
 	}
 	.tags {
 		font-style: italic;
 		color: #555;
 		margin-top: 40px;
+		font-size: 1rem;
 	}
 	.description {
 		margin-top: 40px;
@@ -66,10 +66,11 @@ a {
 	}
 	h2 {
 		font-size: 2rem;
+		color: nth($colors, 4);
 	}
 
 	p {
 		font-size: 1.4rem;
-		margin: 6rem;
+		margin: 2rem;
 	}
 }
