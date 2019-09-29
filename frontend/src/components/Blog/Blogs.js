@@ -9,9 +9,15 @@ export default function Blogs() {
 		setBlogList(
 			data.data.map(blog => <BlogLink key={blog.url} blog={blog} classes='blogLink' />)
 		)
+		document.querySelector('.loading').setAttribute('style', 'display:none;')
 	}
 	useEffect(() => {
 		getBlogs()
 	}, [])
-	return <div>{blogList}</div>
+	return (
+		<div>
+			{blogList}
+			<div className='loading'></div>
+		</div>
+	)
 }

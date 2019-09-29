@@ -77,11 +77,11 @@ h6 {
 }
 
 .comingInFromTheLeft {
-	animation: comingInFromTheLeft 0.2s ease-in-out 0s 1 normal forwards running;
+	animation: comingInFromTheLeft 1.5s ease-in-out 0s 1 normal forwards running;
 }
 
 .comingInFromTheRight {
-	animation: comingInFromTheRight 0.2s ease-in-out 0s 1 normal forwards running;
+	animation: comingInFromTheRight 1.5s ease-in-out 0s 1 normal forwards running;
 }
 
 .frontPageDiv:nth-of-type(1) {
@@ -122,5 +122,27 @@ h6 {
 		content: '';
 		clear: both;
 		display: table;
+	}
+}
+
+.loading {
+	border-top: 10px solid nth($colors, 5);
+	border-bottom: 10px solid nth($colors, 2);
+	height: 200px;
+	width: 200px;
+	box-sizing: border-box;
+	border-radius: 50%;
+	animation: spin 2s linear infinite;
+	position: absolute;
+
+	left: 50%;
+	margin-right: -100px;
+	margin-bottom: -100px;
+	top: 50%;
+}
+
+@keyframes spin {
+	to {
+		transform: rotate(360deg);
 	}
 }
