@@ -9,6 +9,7 @@ import Blogs from './components/Blog/Blogs'
 import Blog from './components/Blog/Blog'
 import Samples from './components/Samples/Samples'
 import Plugins from './components/Plugins/Plugins'
+import Admin from './components/Admin'
 
 function App() {
 	return (
@@ -33,6 +34,9 @@ function App() {
 							</Route>
 							<Route exact path='/samples'>
 								<Samples />
+							</Route>
+							<Route exact path='/secret/admin'>
+								<Admin />
 							</Route>
 						</Switch>
 					</main>
