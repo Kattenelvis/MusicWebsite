@@ -4,12 +4,9 @@ import jsonBlogs from './Blogs.json'
 
 export default function Blogs({ id, classes }) {
 	const blog = jsonBlogs.blogs.filter(blog => blog.url === id)[0]
-	/*document.addEventListener('DOMContentLoaded', () => {
-		document.querySelector('#paragraph').innerHTML = blog.text
-	})*/
 
 	return (
-		<Link exact to={`blog/${id}`}>
+		<Link to={`blog/${id}`}>
 			<div className={classes}>
 				<img src={require('../../img/EDMScene.jpg')} alt='' style={{ float: 'left' }} />
 				<div className='mainContent'>

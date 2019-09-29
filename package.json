@@ -1,29 +1,30 @@
 {
-  "name": "vstwebsite2",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/EmilS2019/MusicWebsite.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/EmilS2019/MusicWebsite/issues"
-  },
-  "homepage": "https://github.com/EmilS2019/MusicWebsite#readme",
-  "dependencies": {
-    "cors": "^2.8.5",
-    "express": "^4.17.1",
-    "mongoose": "^5.7.1"
-  },
-  "devDependencies": {
-    "concurrently": "^4.1.2",
-    "nodemon": "^1.19.2"
-  }
+	"name": "vstwebsite2",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"dev": "concurrently \"npm\""
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/EmilS2019/MusicWebsite.git"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/EmilS2019/MusicWebsite/issues"
+	},
+	"homepage": "https://github.com/EmilS2019/MusicWebsite#readme",
+	"dependencies": {
+		"cors": "^2.8.5",
+		"express": "^4.17.1",
+		"mongoose": "^5.7.1"
+	},
+	"devDependencies": {
+		"concurrently": "^4.1.2",
+		"nodemon": "^1.19.2"
+	}
 }
