@@ -8,6 +8,11 @@ router.get('/', async (req, res) => {
 	res.send(blogs)
 })
 
+router.get('/:id', async (req, res) => {
+	const blog = await BlogSchema.findOne({ url: req.params.id })
+	res.send(blog)
+})
+
 router.post('/', async (req, res) => {
 	if (req.headers.password === require('./secretPassword')) {
 		const blog = new BlogSchema(req.body)
