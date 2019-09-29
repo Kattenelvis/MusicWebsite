@@ -7,7 +7,7 @@
 		"test": "echo \"Error: no test specified\" && exit 1",
 		"start": "node server.js",
 		"dev": "concurrently \"cd frontend && npm start\" \"nodemon server\"",
-		"heroku-postbuild": "cd client && npm install && npm run build"
+		"heroku-postbuild": "cd frontend && npm install && npm run build"
 	},
 	"repository": {
 		"type": "git",
@@ -28,6 +28,9 @@
 	"devDependencies": {
 		"concurrently": "^4.1.2",
 		"nodemon": "^1.19.2"
+	},
+	"engines": {
+		"node": "10.16.2"
 	},
 	"proxy": "http://localhost:5000"
 }
