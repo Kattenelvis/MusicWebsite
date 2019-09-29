@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import blogs from './Blogs.json'
 
 export default function Blogs() {
@@ -7,16 +7,13 @@ export default function Blogs() {
 	const { title, tags, description, text } = blogs.blogs.filter(
 		blog => blog.url === path
 	)[0]
-	document.addEventListener('DOMContentLoaded', () => {
-		document.querySelector('#text').innerHTML = text
-	})
 
 	return (
 		<article className='BlogPost'>
 			<h1>{title}</h1>
 			<h2 className='tags'>{tags}</h2>
 			<h2 className='description'>{description}</h2>
-			<div id='text'></div>
+			<div dangerouslySetInnerHTML={{ __html: text }}></div>
 		</article>
 	)
 }
