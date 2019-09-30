@@ -17,3 +17,9 @@ $colors: #f1f1f2, #ced7f2, #65a3c5, #3e6e8c, #f2b9ac;
 		@content;
 	}
 }
+
+@mixin mobile() {
+	@media screen and (max-width: 600px) {
+		@content;
+	}
+}
