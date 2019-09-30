@@ -8,7 +8,7 @@ export default function FrontPageDiv({ title, text, float, opacity, btnText }) {
 			<h3>{title}</h3>
 			<p>{text}</p>
 			<a href='/blog'>
-				<button class='btn btn-info'>{btnText}</button>
+				<button className='btn btn-info'>{btnText}</button>
 			</a>
 		</div>
 	)
