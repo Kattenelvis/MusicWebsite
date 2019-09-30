@@ -2,6 +2,8 @@ import React from 'react'
 import FrontPageDiv from './FrontPageDiv'
 
 export default function Home() {
+	//If user has scrolled X amount, add the class with scroll animation
+	//Formula is: 430X + 300 pixels
 	var frontPageDivs = document.getElementsByClassName('frontPageDiv')
 	document.addEventListener('scroll', function() {
 		if (this.location.pathname === '/') {
@@ -18,33 +20,22 @@ export default function Home() {
 		<section id='mainSection'>
 			<FrontPageDiv
 				img='../../img/EDMScene.jpg'
-				title='BUY OR GET PLUGINS'
-				text='Lorem ipsum Lorem ipsum Lorem ipsum Lor em ipsum Lorem ipsum Lorem ipsum Lorem
-					ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsu m Lorem ipsum
-					Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lore m
-					ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum
-					Lorem ipsum Lorem ipsum'
+				title='Check out our blog!'
+				text='We hope that you will find something interesting!'
 				opacity={0}
+				btnText='GO TO BLOG'
 			/>
 			<FrontPageDiv
 				img='../../img/EDMScene.jpg'
-				title='CHECK OUT OUR BLOG'
-				text='Lorem ipsum Lorem ipsum Lorem ipsum Lor em ipsum Lorem ipsum Lorem ipsum Lorem
-					ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsu m Lorem ipsum
-					Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lore m
-					ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum
-					Lorem ipsum Lorem ipsum'
+				title='VST Plugins'
+				text='Check out our large store of various VST plugins for you to choose from, rate and buy'
 				float='right'
 				opacity={0}
 			/>
 			<FrontPageDiv
 				img='../../img/EDMScene.jpg'
-				title='I NEED TO GET BETTER AT COPYWRITING'
-				text='Lorem ipsum Lorem ipsum Lorem ipsum Lor em ipsum Lorem ipsum Lorem ipsum Lorem
-					ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsu m Lorem ipsum
-					Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lore m
-					ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum
-					Lorem ipsum Lorem ipsum'
+				title='Hi, I am EmilEsse'
+				text="and I hope you'll find this website good"
 				opacity={0}
 			/>
 		</section>

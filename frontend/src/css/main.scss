@@ -21,21 +21,16 @@ h6 {
 }
 
 #image {
-	background-image: url('../img/EDMScene.jpg');
-	background-repeat: no-repeat;
-	width: 100%;
-	height: 400px;
-	background-size: 300%;
-	background-position-y: -60rem;
-	background-position-x: -60rem;
-	filter: blur(px);
+	max-height: 600px;
+	// max-height: 500px;
+}
 
-	@include desktop {
-		background-position-y: -80rem;
-		height: 500px;
+@keyframes textAnimation {
+	0% {
+		transform: translateY(200px);
+		opacity: 0;
 	}
-	@include fullHD {
-		background-position-y: -120rem;
+	100% {
 	}
 }
 
@@ -45,6 +40,7 @@ h6 {
 	text-align: center;
 	font-size: 4em;
 	margin-top: 40px;
+	animation: textAnimation 1s ease-in-out 0s 1;
 }
 
 .secondaryText {
@@ -54,6 +50,7 @@ h6 {
 	text-align: center;
 	margin-top: 30px;
 	font-size: 1.6em;
+	animation: textAnimation 2s ease-out 0s 1;
 }
 
 @keyframes comingInFromTheLeft {
@@ -93,9 +90,9 @@ h6 {
 	width: 70%;
 	margin: 17em auto;
 	padding: 2em;
+	transition: box-shadow 0.2s;
 	&:hover {
 		box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
-		//transform: translateX(100px);
 	}
 	/*transition: transform 0.7s cubic-bezier(0.79, -0.84, 0.07, 1.7);
 	*/
@@ -109,6 +106,7 @@ h6 {
 		margin-left: 40px;
 		font-size: 2em;
 		width: 40%;
+
 		margin-top: -6px;
 	}
 	p {
@@ -116,6 +114,7 @@ h6 {
 		margin-left: 40px;
 		margin-top: 30px;
 		width: 45%;
+		max-width: 200px;
 	}
 
 	&::after {
