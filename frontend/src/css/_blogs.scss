@@ -5,7 +5,7 @@ a {
 .Blogs {
 	display: flex;
 	height: 100%;
-	min-height: 520px;
+	min-height: 900px;
 	.sidebar {
 		background: darken(nth($colors, 1), 5%);
 		padding: 2rem;
@@ -18,7 +18,7 @@ a {
 			padding: 0;
 			margin: 1rem auto 0 auto;
 			li {
-				padding: 0.5rem;
+				padding: 0.3rem;
 				transition: color 0.2s;
 				&:hover {
 					cursor: pointer;
@@ -33,7 +33,7 @@ a {
 }
 
 .selectedTag {
-	color: #888;
+	color: #88c;
 }
 
 .blogLink {
