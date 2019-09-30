@@ -17,15 +17,3 @@ $colors: #f1f1f2, #ced7f2, #65a3c5, #3e6e8c, #f2b9ac;
 		@content;
 	}
 }
-
-.buttonMain {
-	border: nth($colors, 4) 1px solid;
-	background: nth($colors, 3);
-	color: white;
-	padding: 1em;
-	border-radius: 5px;
-
-	&:hover {
-		background: darken(nth($colors, 3), 5%);
-	}
-}

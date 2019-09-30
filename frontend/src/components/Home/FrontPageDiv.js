@@ -7,7 +7,9 @@ export default function FrontPageDiv({ title, text, float, opacity, btnText }) {
 			<img src={require('../../img/EDMScene.jpg')} alt='' style={{ float: float }} />
 			<h3>{title}</h3>
 			<p>{text}</p>
-			<button class='buttonMain'>{btnText}</button>
+			<a href='/blog'>
+				<button class='btn btn-info'>{btnText}</button>
+			</a>
 		</div>
 	)
 }

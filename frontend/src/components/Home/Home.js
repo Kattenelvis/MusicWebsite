@@ -34,7 +34,7 @@ export default function Home() {
 			/>
 			<FrontPageDiv
 				img='../../img/EDMScene.jpg'
-				title='Hi, I am EmilEsse'
+				title='Hi, I am EmilEsse,'
 				text="and I hope you'll find this website good"
 				opacity={0}
 			/>
