@@ -7,11 +7,11 @@ export default function Plugins() {
 		<div className='mainItemDisplay'>
 			<Aside list={['Synth', 'Instruments', 'Vocal', 'Effect', 'Other']} />
 			<div className='PluginDisplay'>
-				<Plugin />
-				<Plugin />
-				<Plugin />
-				<Plugin />
-				<Plugin />
+				<Plugin title={'Super Cool Synth'} />
+				<Plugin title={'X200'} />
+				<Plugin title={'Short Name'} />
+				<Plugin title={'Serum'} />
+				<Plugin title={'Massive'} />
 			</div>
 			{/* <div className='loading'></div> */}
 		</div>

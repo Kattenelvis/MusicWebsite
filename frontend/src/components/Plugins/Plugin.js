@@ -1,11 +1,11 @@
 import React from 'react'
 
-export default function Plugin() {
+export default function Plugin({ title }) {
 	return (
 		<div className='plugin'>
 			<img src={require('../../img/EDMScene.jpg')} width='1px' height='130px' />
 			<div className='pluginBottom'>
-				<h2>Super Cool Synth With Long Name</h2>
+				<h2>{title}</h2>
 				<h3>
 					51 reviews <span role='img'>⭐⭐⭐⭐⭐</span>
 				</h3>

@@ -4,11 +4,16 @@ $margin: 35px;
 	margin-left: $margin;
 	margin-top: $margin/2;
 	margin-bottom: $margin/2;
+	width: 300px;
 
 	img {
 		display: block;
 		margin: auto;
 		width: 100%;
+	}
+
+	h2 {
+		font-weight: bold;
 	}
 
 	h2,

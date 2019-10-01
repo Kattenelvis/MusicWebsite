@@ -12,47 +12,56 @@ a {
 	}
 }
 
-.sidebar {
-	background: darken(nth($colors, 1), 5%);
-	text-align: center;
+.hidden {
+	display: none;
+}
 
+.aside {
 	.hamburger {
 		margin-right: -130px;
 		margin-top: 20px;
 		height: 30px;
 		cursor: pointer;
-		visibility: hidden;
+		position: fixed;
+		display: none;
 		@include mobile {
-			visibility: visible;
+			display: block;
 		}
+		left: 15px;
+		top: -5px;
 	}
 
-	.categories {
-		visibility: visible;
+	.sidebar {
+		background: darken(nth($colors, 1), 5%);
+		text-align: center;
+		height: 100%;
 		@include mobile {
-			visibility: hidden;
+			position: fixed;
 		}
-		padding: 2rem;
-		padding-top: 1rem;
-		h2 {
-			font-weight: bold;
-		}
-		ul {
-			list-style: none;
-			padding: 0;
-			margin: 1rem auto 0 auto;
-			li {
-				padding: 0.3rem;
-				transition: color 0.2s;
-				&:hover {
-					cursor: pointer;
-					color: #55c;
+		.categories {
+			display: block;
+
+			padding: 2rem;
+			padding-top: 1rem;
+			h2 {
+				font-weight: bold;
+			}
+			ul {
+				list-style: none;
+				padding: 0;
+				margin: 1rem auto 0 auto;
+				li {
+					padding: 0.3rem;
+					transition: color 0.2s;
+					&:hover {
+						cursor: pointer;
+						color: #55c;
+					}
 				}
 			}
 		}
 	}
 }
-
 .selectedTag {
 	color: #88c;
 }
