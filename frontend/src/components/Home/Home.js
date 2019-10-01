@@ -8,8 +8,7 @@ export default function Home() {
 	document.addEventListener('scroll', function() {
 		if (this.location.pathname === '/') {
 			for (var i = 0; i < frontPageDivs.length; i++) {
-				if (i === 0) frontPageDivs[0].classList.add('comingInFromTheLeft')
-				else if (window.pageYOffset > i * 430 + 300) {
+				if (window.pageYOffset > i * 430 + 300) {
 					if (i % 2 === 0) frontPageDivs[i].classList.add('comingInFromTheRight')
 					else frontPageDivs[i].classList.add('comingInFromTheLeft')
 				}

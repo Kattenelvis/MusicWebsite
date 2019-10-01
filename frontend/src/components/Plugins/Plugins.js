@@ -6,7 +6,13 @@ export default function Plugins() {
 	return (
 		<div className='mainItemDisplay'>
 			<Aside list={['Synth', 'Instruments', 'Vocal', 'Effect', 'Other']} />
-			<Plugin />
+			<div className='PluginDisplay'>
+				<Plugin />
+				<Plugin />
+				<Plugin />
+				<Plugin />
+				<Plugin />
+			</div>
 			{/* <div className='loading'></div> */}
 		</div>
 	)
