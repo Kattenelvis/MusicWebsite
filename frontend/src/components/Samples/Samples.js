@@ -6,7 +6,13 @@ export default function Samples() {
 	return (
 		<div className='mainItemDisplay'>
 			<Aside list={['Synth', 'Instruments', 'Vocal', 'Effect', 'Other']} />
-			<Sample />
+			<div className='Samples'>
+				<Sample />
+				<Sample />
+				<Sample />
+				<Sample />
+				<Sample />
+			</div>
 		</div>
 	)
 }

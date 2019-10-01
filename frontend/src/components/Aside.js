@@ -5,8 +5,11 @@ export default function Aside({ list }) {
 
 	return (
 		<aside className='sidebar'>
-			<h2>Categories</h2>
-			<ul>{mapList}</ul>
+			<img className='hamburger' src={require('../img/Hamburger.svg')} />
+			<div className='categories'>
+				<h2>Categories</h2>
+				<ul>{mapList}</ul>
+			</div>
 		</aside>
 	)
 }

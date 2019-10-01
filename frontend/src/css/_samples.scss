@@ -1,0 +1,28 @@
+.sample {
+	background: white;
+	display: inline-table;
+	border-radius: 4px;
+	box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.02);
+	margin-left: $margin;
+	margin-top: $margin;
+	padding: 0.8rem 2rem;
+
+	h2 {
+		padding: 0.3rem 0rem 0.3rem 0.4rem;
+		margin: auto;
+		a {
+			font-size: 0.8rem;
+		}
+	}
+
+	h3 {
+		font-size: 1rem;
+		font-style: italic;
+		color: #323232;
+		padding: 0.3rem 0rem 0.3rem 0.4rem;
+	}
+
+	audio {
+		border-radius: 10px;
+	}
+}

@@ -2,7 +2,8 @@ $margin: 35px;
 .plugin {
 	display: inline-table;
 	margin-left: $margin;
-	margin-top: $margin;
+	margin-top: $margin/2;
+	margin-bottom: $margin/2;
 
 	img {
 		display: block;

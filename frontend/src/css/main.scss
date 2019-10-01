@@ -3,6 +3,8 @@
 @import 'footer';
 @import 'blogs';
 @import 'plugin';
+@import 'samples';
+@import 'sidebar';
 body,
 html {
 	height: calc(100% - 2em);
@@ -10,7 +12,6 @@ html {
 	margin: 0;
 	font-family: Arial, Helvetica, sans-serif;
 	background-color: nth($colors, 1);
-	//overflow-x: hidden;
 }
 h1,
 h2,
@@ -23,7 +24,6 @@ h6 {
 
 #image {
 	max-height: 600px;
-	// max-height: 500px;
 }
 
 @keyframes textAnimation {
