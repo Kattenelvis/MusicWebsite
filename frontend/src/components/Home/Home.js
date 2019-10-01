@@ -31,12 +31,14 @@ export default function Home() {
 				text='Check out our large store of various VST plugins for you to choose from, rate and buy'
 				float='right'
 				opacity={0}
+				btnText='GET PLUGINS'
 			/>
 			<FrontPageDiv
 				img='../../img/EDMScene.jpg'
 				title='Hi, I am EmilEsse,'
 				text="and I hope you'll find this website good"
 				opacity={0}
+				btnText='ABOUT ME'
 			/>
 		</section>
 	)

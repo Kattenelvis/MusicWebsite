@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react'
 import BlogLink from './BlogLink'
 import Axios from 'axios'
+import Aside from '../Aside'
 
 export default function Blogs() {
 	const [blogList, setBlogList] = useState([])
@@ -49,18 +50,10 @@ export default function Blogs() {
 		}
 	}
 
+	const categories = ['All', 'Plugins', 'Industry', 'Money', 'Other']
 	return (
-		<div className='Blogs'>
-			<aside className='sidebar'>
-				<h2>Categories</h2>
-				<ul>
-					<li>All</li>
-					<li>Plugins</li>
-					<li>Industry</li>
-					<li>Money</li>
-					<li>Other</li>
-				</ul>
-			</aside>
+		<div className='mainItemDisplay'>
+			<Aside list={categories} />
 			<div className='blogList'>{blogList}</div>
 			<div className='loading'></div>
 		</div>

@@ -14,35 +14,33 @@ import Admin from './components/Admin'
 function App() {
 	return (
 		<Router>
-			<div className='App'>
-				<div className='mainWrap'>
-					<Header />
-					<main>
-						<Switch>
-							<Route exact path='/'>
-								<TopPart />
-								<Home />
-							</Route>
-							<Route exact path='/blog'>
-								<Blogs />
-							</Route>
-							<Route path='/blog/'>
-								<Blog />
-							</Route>
-							<Route exact path='/plugins'>
-								<Plugins />
-							</Route>
-							<Route exact path='/samples'>
-								<Samples />
-							</Route>
-							<Route exact path='/secret/admin'>
-								<Admin />
-							</Route>
-						</Switch>
-					</main>
-				</div>
-				<Footer />
+			<div className='mainWrap'>
+				<Header />
+				<main>
+					<Switch>
+						<Route exact path='/'>
+							<TopPart />
+							<Home />
+						</Route>
+						<Route exact path='/blog'>
+							<Blogs />
+						</Route>
+						<Route path='/blog/'>
+							<Blog />
+						</Route>
+						<Route exact path='/plugins'>
+							<Plugins />
+						</Route>
+						<Route exact path='/samples'>
+							<Samples />
+						</Route>
+						<Route exact path='/secret/admin'>
+							<Admin />
+						</Route>
+					</Switch>
+				</main>
 			</div>
+			<Footer />
 		</Router>
 	)
 }
