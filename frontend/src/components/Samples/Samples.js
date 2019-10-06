@@ -8,11 +8,11 @@ export default function Samples() {
 		<div className='mainItemDisplay'>
 			<Aside list={['Synth', 'Instruments', 'Vocal', 'Effect', 'Other']} />
 			<div className='Samples'>
-				<Sample />
-				<Sample />
-				<Sample />
-				<Sample />
-				<Sample />
+				<Sample name={"kattenelvis"} title={"Cool Bass"} file={require('../../audio/Bass.mp3')}/>
+				<Sample name={"kattenelvis"} title={"Cool Bass"} file={require('../../audio/Bass.mp3')}/>
+				<Sample name={"kattenelvis"} title={"Cool Bass"} file={require('../../audio/Bass.mp3')}/>
+				<Sample name={"kattenelvis"} title={"Cool Bass"} file={require('../../audio/Bass.mp3')}/>
+				<Sample name={"kattenelvis"} title={"Cool Bass"} file={require('../../audio/Bass.mp3')}/>
 			</div>
 			<Link to={"/samples/upload"}>Upload your own samples</Link>
 		</div>
