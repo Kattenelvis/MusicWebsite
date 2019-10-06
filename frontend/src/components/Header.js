@@ -29,6 +29,12 @@ export default function Header() {
 							Samples
 						</Link>
 					</li>
+					<li>
+						<Link to='/playground' className='navLink'>
+							Playground
+						</Link>
+					</li>
+
 				</ul>
 			</nav>
 		</header>

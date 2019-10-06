@@ -14,11 +14,6 @@ export default function Blogs() {
 		sortByTag('')
 	}
 
-	useEffect(() => {
-		getBlogs()
-		SetLinksToTags()
-	}, [])
-
 	//Gives function to the list underneath "Categories" in the aside
 	const SetLinksToTags = () => {
 		const tags = document.querySelector('.sidebar ul')
@@ -36,6 +31,11 @@ export default function Blogs() {
 			})
 		}
 	}
+
+	useEffect(() => {
+		SetLinksToTags() 
+		getBlogs()
+	},[])
 
 	const sortByTag = tag => {
 		if (tag === '')

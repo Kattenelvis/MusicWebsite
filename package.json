@@ -21,6 +21,7 @@
 	},
 	"homepage": "https://github.com/EmilS2019/MusicWebsite#readme",
 	"dependencies": {
+		"apollo-server-express": "^2.9.5",
 		"cors": "^2.8.5",
 		"express": "^4.17.1",
 		"mongoose": "^5.7.1"

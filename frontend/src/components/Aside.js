@@ -16,7 +16,7 @@ export default function Aside({ list }) {
 
 	return (
 		<div className='aside'>
-			<img className='hamburger' src={require('../img/Hamburger.svg')} />
+			<img className='hamburger' alt="" src={require('../img/Hamburger.svg')} />
 			<aside className='sidebar'>
 				<div className='categories'>
 					<h2>Categories</h2>

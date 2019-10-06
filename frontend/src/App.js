@@ -1,5 +1,5 @@
 import React from 'react'
-import './css/main.min.css'
+import './css/main.css'
 import Footer from './components/Footer'
 import Header from './components/Header'
 import Home from './components/Home/Home'
@@ -9,7 +9,8 @@ import Blogs from './components/Blog/Blogs'
 import Blog from './components/Blog/Blog'
 import Samples from './components/Samples/Samples'
 import Plugins from './components/Plugins/Plugins'
-import Admin from './components/Admin'
+import Playground from './components/Playground/Playground'
+import Upload from './components/Samples/Upload'
 
 function App() {
 	return (
@@ -34,8 +35,11 @@ function App() {
 						<Route exact path='/samples'>
 							<Samples />
 						</Route>
-						<Route exact path='/secret/admin'>
-							<Admin />
+						<Route exact path='/samples/upload'>
+							<Upload />
+						</Route>
+						<Route exact path='/playground'>
+							 <Playground/>
 						</Route>
 					</Switch>
 				</main>

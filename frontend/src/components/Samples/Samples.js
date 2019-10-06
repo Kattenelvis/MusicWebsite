@@ -1,5 +1,6 @@
 import React from 'react'
 import Aside from '../Aside'
+import { Link } from 'react-router-dom'
 import Sample from './Sample'
 
 export default function Samples() {
@@ -13,6 +14,7 @@ export default function Samples() {
 				<Sample />
 				<Sample />
 			</div>
+			<Link to={"/samples/upload"}>Upload your own samples</Link>
 		</div>
 	)
 }

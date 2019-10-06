@@ -3,8 +3,9 @@ import { Link } from 'react-router-dom'
 
 export default function Blogs({ blog }) {
 	return (
-		<Link to={`blog/${blog.url}`}>
+		
 			<div className='media blogLink'>
+				<Link to={`blog/${blog.url}`}>
 				<img
 					src={require('../../img/EDMScene.jpg')}
 					width='140px'
@@ -18,7 +19,8 @@ export default function Blogs({ blog }) {
 					turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue
 					felis in faucibus.
 				</div>
+				</Link>
 			</div>
-		</Link>
+
 	)
 }
