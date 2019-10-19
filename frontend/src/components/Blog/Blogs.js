@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import BlogLink from './BlogLink'
+import Axios from 'axios'
 import Aside from '../Aside'
 import BlogJson from './Blogs.json'
 
@@ -7,7 +8,13 @@ export default function Blogs() {
 	const [blogList, setBlogList] = useState([])
 	let allBlogs = []
 
-	const getBlogs = () => {
+	const getBlogs = async () => {
+		try{
+			// const test = await Axios.get('/api/blogs')
+			// console.log(test)
+		}
+		catch{
+		}
 		allBlogs = BlogJson.blogs
 		document.querySelector('.loading').setAttribute('style', 'display:none;')
 		sortByTag('')

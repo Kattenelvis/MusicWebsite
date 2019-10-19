@@ -6,9 +6,13 @@ export default function Blogs() {
 	const [blog, setBlog] = useState({})
 	const getBlog = async () => {
 		const blogURL = window.location.pathname.split('/')[2]
-		const { data } = await Axios.get(`/api/blogs/${blogURL}`)
-		setBlog(data)
-		document.querySelector('.loading').setAttribute('style', 'display:none;')
+		// const { data } = await Axios.get(`/api/blogs/${blogURL}`)
+		BlogJson.blogs.forEach((blog, i) => {
+			if (blog.url === blogURL){
+				setBlog(BlogJson.blogs[i])
+				document.querySelector('.loading').setAttribute('style', 'display:none;')
+			}
+		});
 	}
 	useEffect(() => {
 		getBlog()

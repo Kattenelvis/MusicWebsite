@@ -23,6 +23,7 @@ export default function Home() {
 				text='We hope that you will find something interesting!'
 				opacity={0}
 				btnText='GO TO BLOG'
+				btnLink = 'blog'
 			/>
 			<FrontPageDiv
 				img='../../img/EDMScene.jpg'
@@ -31,13 +32,15 @@ export default function Home() {
 				float='right'
 				opacity={0}
 				btnText='GET PLUGINS'
+				btnLink = 'plugins'
 			/>
 			<FrontPageDiv
 				img='../../img/EDMScene.jpg'
-				title='Hi, I am EmilEsse,'
+				title='Hi, My name is Emil,'
 				text="and I hope you'll find this website good"
 				opacity={0}
-				btnText='ABOUT ME'
+				btnText='DOWNLOAD SAMPLES'
+				btnLink = 'samples'
 			/>
 		</section>
 	)

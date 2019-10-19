@@ -4,11 +4,13 @@ const BlogSchema = require('../schema/blogSchema')
 
 // @path: /api/blogs
 router.get('/', async (req, res) => {
+	console.log("hiii")
 	const blogs = await BlogSchema.find()
 	res.send(blogs)
 })
 
 router.get('/:id', async (req, res) => {
+	console.log("hi")
 	const blog = await BlogSchema.findOne({ url: req.params.id })
 	res.send(blog)
 })
