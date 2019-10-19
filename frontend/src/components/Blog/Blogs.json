@@ -1,11 +1,11 @@
 {
 	"blogs": [
 		{
-			"url": "example-title-of-blog",
-			"title": "Test Blog",
-			"tags": ["Plugins"],
-			"description": "HELLO EVERYBODY",
-			"text": "<p>Howdy Partner</p>",
+			"url": "love-music",
+			"title": "Why I love music",
+			"tags": ["Other"],
+			"description": "Music is among my favourite things in this world. But why do we love it so much?",
+			"text": "<p>I believe that humanity is amazing. We have invented many things, among those is music. But why? I don't know</p>",
 			"comments": [
 				{
 					"name": "Katten",
@@ -14,24 +14,11 @@
 			]
 		},
 		{
-			"url": "example-title-of-blog2",
-			"title": "Test Blog 2",
-			"tags": ["Money"],
-			"description": "HELLO EVERYBODY",
-			"text": "<p>Howdy Partners</p>",
-			"comments": [
-				{
-					"name": "Katten",
-					"comment": "No HTML here"
-				}
-			]
-		},
-		{
-			"url": "new-title-of-blog2",
-			"title": "Test Blog 2",
-			"tags": ["Industry"],
-			"description": "HELLO EVERYBODY",
-			"text": "<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore quibusdam ratione sint\nducimus cum incidunt! Numquam veniam fugiat earum, asperiores deserunt debitis tempore\nLorem ipsum dolor sit amet consectetur adipisicing elit. Tempore quibusdam ratione sint\nducimus cum incidunt! Numquam veniam fugiat earum, asperiores deserunt debitis tempore\nLorem ipsum dolor sit amet consectetur adipisicing elit. Tempore quibusdam ratione sint\nducimus cum incidunt! Numquam veniam fugiat earum, asperiores deserunt debitis tempore\nLorem ipsum dolor sit amet consectetur adipisicing elit. Tempore quibusdam ratione sint\nducimus cum incidunt! Numquam veniam fugiat earum, asperiores deserunt debitis tempore\nLorem ipsum dolor sit amet consectetur adipisicing elit. Tempore quibusdam ratione sint\nducimus cum incidunt! Numquam veniam fugiat earum, asperiores deserunt debitis tempore\n</p><h2>repellat soluta alias cum ipsum et magnam asperiores</h2><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore quibusdam ratione sint\nducimus cum incidunt! Numquam veniam fugiat earum, asperiores deserunt debitis temporeLorem ipsum dolor sit amet consectetur adipisicing elit. Tempore quibusdam ratione sint\nducimus cum incidunt! Numquam veniam fugiat earum, asperiores deserunt debitis tempore\nLorem ipsum dolor sit amet consectetur adipisicing elit. Tempore quibusdam ratione sint\nducimus cum incidunt! Numquam veniam fugiat earum, asperiores deserunt debitis tempore</p><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore quibusdam ratione sint\nducimus cum incidunt! Numquam veniam fugiat earum, asperiores deserunt debitis tempore\nLorem ipsum dolor sit amet consectetur adipisicing elit. Tempore quibusdam ratione sint\nducimus cum incidunt! Numquam veniam fugiat earum, asperiores deserunt debitis tempore</p><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore quibusdam ratione sint\nducimus cum incidunt! Numquam veniam fugiat earum, asperiores deserunt debitis tempore\nLorem ipsum dolor sit amet consectetur adipisicing elit. Tempore quibusdam ratione sint\nducimus cum incidunt! Numquam veniam fugiat earum, asperiores deserunt debitis tempore\nLorem ipsum dolor sit amet consectetur adipisicing elit. Tempore quibusdam ratione sint\nducimus cum incidunt! Numquam veniam fugiat earum, asperiores deserunt debitis tempore\nLorem ipsum dolor sit amet consectetur adipisicing elit. Tempore quibusdam ratione sint\nducimus cum incidunt! Numquam veniam fugiat earum, asperiores deserunt debitis tempore\nLorem ipsum dolor sit amet consectetur adipisicing elit. Tempore quibusdam ratione sint\nducimus cum incidunt! Numquam veniam fugiat earum, asperiores deserunt debitis tempore\nLorem ipsum dolor sit amet consectetur adipisicing elit. Tempore quibusdam ratione sint\nducimus cum incidunt! Numquam veniam fugiat earum, asperiores deserunt debitis tempore\nLorem ipsum dolor sit amet consectetur adipisicing elit. Tempore quibusdam ratione sint\nducimus cum incidunt! Numquam veniam fugiat earum, asperiores deserunt debitis tempore\nLorem ipsum dolor sit amet consectetur adipisicing elit. Tempore quibusdam ratione sint\nducimus cum incidunt! Numquam veniam fugiat earum, asperiores deserunt debitis tempore\nLorem ipsum dolor sit amet consectetur adipisicing elit. Tempore quibusdam ratione sint\nducimus cum incidunt! Numquam veniam fugiat earum, asperiores deserunt debitis tempore\nLorem ipsum dolor sit amet consectetur adipisicing elit. Tempore quibusdam ratione sint\nducimus cum incidunt! Numquam veniam fugiat earum, asperiores deserunt debitis tempore\nLorem ipsum dolor sit amet consectetur adipisicing elit. Tempore quibusdam ratione sint\nducimus cum incidunt! Numquam veniam fugiat earum, asperiores deserunt debitis tempore\n<p/><h2>repellat soluta alias cum ipsum et magnam asperiores,</h2><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore quibusdam ratione sint\nducimus cum incidunt! Numquam veniam fugiat earum, asperiores deserunt debitis temporeLorem ipsum dolor sit amet consectetur adipisicing elit. Tempore quibusdam ratione sint\nducimus cum incidunt! Numquam veniam fugiat earum, asperiores deserunt debitis tempore\nLorem ipsum dolor sit amet consectetur adipisicing elit. Tempore quibusdam ratione sint\nducimus cum incidunt! Numquam veniam fugiat earum, asperiores deserunt debitis tempore\nLorem ipsum dolor sit amet consectetur adipisicing elit. Tempore quibusdam ratione sint\nducimus cum incidunt! Numquam veniam fugiat earum, asperiores deserunt debitis tempore\nLorem ipsum dolor sit amet consectetur adipisicing elit. Tempore quibusdam ratione sint\nducimus cum incidunt! Numquam veniam fugiat earum, asperiores deserunt debitis tempore\nLorem ipsum dolor sit amet consectetur adipisicing elit. Tempore quibusdam ratione sint\nducimus cum incidunt! Numquam veniam fugiat earum, asperiores deserunt debitis tempore\nLorem ipsum dolor sit amet consectetur adipisicing elit. Tempore quibusdam ratione sint\nducimus cum incidunt! Numquam veniam fugiat earum, asperiores deserunt debitis tempore\nLorem ipsum dolor sit amet consectetur adipisicing elit. Tempore quibusdam ratione sint\nducimus cum incidunt! Numquam veniam fugiat earum, asperiores deserunt debitis tempore\nLorem ipsum dolor sit amet consectetur adipisicing elit. Tempore quibusdam ratione sint\nducimus cum incidunt! Numquam veniam fugiat earum, asperiores deserunt debitis tempore\nLorem ipsum dolor sit amet consectetur adipisicing elit. Tempore quibusdam ratione sint\nducimus cum incidunt! Numquam veniam fugiat earum, asperiores deserunt debitis tempore\nLorem ipsum dolor sit amet consectetur adipisicing elit. Tempore quibusdam ratione sint\nducimus cum incidunt! Numquam veniam fugiat earum, asperiores deserunt debitis tempore\n</p>",
+			"url": "music-stagnation",
+			"title": "Is the music industry dead?",
+			"tags": ["Money", "Industry"],
+			"description": "With the invention of piracy, will music be able to exist for long?",
+			"text": "<p>Of course it's not on it's way damnit! New numbers show that infact, the music industry is not <b>bigger</b> than ever before. This is most likely due to increasing population, music streaming services and more</p>",
 			"comments": [
 				{
 					"name": "Katten",
