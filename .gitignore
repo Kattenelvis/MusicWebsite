@@ -15,6 +15,7 @@ old
 
 # testing
 /coverage
+regex
 
 # production
 /build

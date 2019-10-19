@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import Axios from 'axios'
+import BlogJson from './Blogs.json'
 
 export default function Blogs() {
 	const [blog, setBlog] = useState({})
